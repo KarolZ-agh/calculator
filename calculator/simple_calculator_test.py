@@ -1,8 +1,8 @@
 import unittest as ut
-import calculator as calc
+import simple_calculator as calc
 
 
-class CalculatorTest(ut.TestCase):
+class SimpleCalculatorTest(ut.TestCase):
 
     def test_should_raise_error_when_invalid_arguments(self):
         self.assertRaises(calc.UnsupportedOperationError, calc.calculate, "invalid", 1, 2)
