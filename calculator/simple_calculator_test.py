@@ -1,5 +1,5 @@
 import unittest as ut
-import simple_calculator as calc
+from calculator import simple_calculator as calc
 
 
 class SimpleCalculatorTest(ut.TestCase):
