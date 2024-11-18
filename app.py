@@ -3,7 +3,8 @@ Provides API foo simple calculations
 """
 
 from flask import Flask, request
-import calculator.simple_calculator as calc
+from calculator import simple_calculator as calc
+
 
 app = Flask(__name__)
 
